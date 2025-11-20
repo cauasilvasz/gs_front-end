@@ -1,0 +1,44 @@
+.main-nav a {
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #007bff;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 123, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+}
+
+#message-button {
+    animation: pulse 2s infinite;
+}
+
+.action-buttons button,
+#submit-quiz,
+#send-contact {
+    transition: opacity 0.3s;
+}
+
+.action-buttons button:hover,
+#submit-quiz:hover,
+#send-contact:hover {
+    opacity: 0.8;
+}
