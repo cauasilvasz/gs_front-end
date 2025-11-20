@@ -24,3 +24,6 @@ Integrantes
 
 Caua Pereira da Silva RM 568143
 Felipe Estevo RM 567780
+
+link deploy: https://gs-front-end-two.vercel.app/
+link repositorio: https://github.com/cauasilvasz/gs_front-end.git
